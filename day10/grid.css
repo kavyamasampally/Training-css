@@ -1,0 +1,54 @@
+section{
+    border: 2px solid;
+    height: 700px;
+    width: 700px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    /* row-gap: 20px;
+    column-gap: 20px; */
+    gap: 20px;
+    justify-content: flex-end;
+    align-content: flex-end;
+    justify-content: flex-start;
+    align-content: flex-end;
+    justify-content: center;
+    align-content: center;
+}
+section div{
+    border: 2px solid red;
+    height: 100px;
+    width: 100px;
+}
+article{
+    border: 2px solid;
+    height: 300px;
+    width: 300px;
+    display: flex;
+}
+article div{
+    border: 2px solid;
+    height: 40px;
+    width: 40px;
+    display: flex;
+}
+#d1,#d3{
+    flex-grow: 1;
+}
+#d2{
+    flex-grow: 2;
+    order: 3;
+    align-self: center;
+}
+#d3{
+    order: 1;
+    align-self: center;
+}
+#d1{
+    order: 2;
+}
+h1::first-letter{
+    color: brown;
+    vertical-align: sub;
+    vertical-align: super;
+}

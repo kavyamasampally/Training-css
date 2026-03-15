@@ -1,0 +1,6 @@
+@import url('./main.css');
+nav{
+    border: 2px solid ;
+    height: 50px;
+    background-color: blue;
+}

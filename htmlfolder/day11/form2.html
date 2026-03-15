@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="">address</label>
+        <textarea name="" id="" cols="10" rows="10"></textarea>
+        <br>
+        <label for="">stream</label>
+        <select>
+            <option value="">--select--</option>
+            <option value="">cse</option>
+            <option value="">ece</option>
+            <option value="">eee</option>
+            <option value="">civil</option>
+            <option value="">IT</option>
+        </select>
+        <br>
+        <input type="text" list="d1">
+        <datalist id="d1">
+            <option value="cse">cse</option>
+            <option value="ece">ece</option>
+            <option value="eee">eee</option>
+            <option value="civil">civil</option>
+            <option value="it">IT</option>
+        </datalist>
+    </form>
+    <style>
+        fieldset{
+            width: 400px
+
+        }
+    </style>
+    <fieldset>
+        <legend align="center" style="color: blue;">LOGIN </legend>
+        <form action=""><label for="">Name</label>
+        <input type="text" name="" id="" autofocus autocomplete="on"><br><br>
+        <label for="">last name</label>
+        <input type="text" name="" id="" required placeholder="enter ur last name"><br><br>
+        <label for="">Password</label>
+        <input minlength="4" maxlength="8" type="password" name="pass" id=""><br><br>
+        <label for="">Password1</label>
+        <input type="password" name="pass" id="" pattern="[0-9]{5}"><br><br>
+        <label for="">Password2</label>
+        <input type="password" name="pass" id="" pattern="[A-Z]{3}"><br><br>
+        <label for="">Password3</label>
+        <input type="password" name="pass" id="" pattern="[a-z]{3}"><br><br>
+        <label for="">Password4</label>
+        <input type="password" name="pass" id="" pattern="[A-Z]{1}[a-z]{2}[@#$%]{1}[0-9]{3}" placeholder="web@123"><br><br>
+        <label for="">age</label>
+        <input type="number" name="" id="" min="1" max="150"><br><br>
+        <label for="">phone</label>
+        <input type="tel" name="" id="" required><br><br>
+        <label for="">checkbox</label>
+        <input type="checkbox" name="" id="" checked >
+        <input type="checkbox" name="" id=""><br><br>
+        <label for="">hidden</label>
+        <input type="text" name="" id=""hidden> <br><br>
+        <label for="">disabled</label>
+        <input type="text" name="" id="" disabled><br><br>
+        <label for="">dev value</label>
+        <input type="text" name="" id="" value="web"><br><br>
+        <label for="">dev value</label>
+        <input type="text" name="" id="" value="web" readonly><br><br>
+        <button>Submit</button>
+        </form>
+    </fieldset>
+</body>
+</html>

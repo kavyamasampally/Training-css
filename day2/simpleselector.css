@@ -1,0 +1,25 @@
+/*id selector*/
+#d1{
+    background-color: red;
+}
+/*class selector*/
+.d2{
+    background-color: yellow;
+}
+/*tag selector*/
+section{
+    background-color: blue;
+    color: aliceblue;
+}
+/*grouping selector*/
+main,nav,footer,h1{
+    background-color: aqua;
+    color: black;
+}
+/*universal selector*/
+body{
+    background-color: chartreuse;
+}
+*{
+    background-color: brown;
+}

@@ -1,0 +1,36 @@
+a:link{
+    color:hotpink
+}
+a:active{
+    color: red;
+}
+a:visited{
+    color: aqua;
+}
+#inp1:focus{
+    color: azure;
+    background-color: aqua;
+}
+#inp2:checked{
+    color: black;
+    background-color: aqua;
+    accent-color: aqua;
+}
+div{
+    border: 2px solid;
+    height: 100px;
+    width: 100px;
+}
+div:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+p:hover{
+    cursor: pointer;
+    cursor: alias;
+    cursor: grab;
+    cursor: not-allowed;
+    cursor: no-drop;
+}
+
+

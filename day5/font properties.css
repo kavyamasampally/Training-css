@@ -1,0 +1,24 @@
+h1{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-style: oblique;
+    font-style: normal;
+    font-variant: small-caps;
+    font-variant: normal;
+}
+img{
+    height: 200px;
+    width: 200px;
+    filter: blur(5px);
+    filter: brightness(10px);
+    filter: contrast(400%);
+    filter: grayscale(400%);
+    filter: hue-rotate(320deg);
+    filter: invert(200%);
+    filter: opacity(100%);
+    filter: saturate(1500%);
+    filter: sepia(200%);
+    filter: drop-shadow(100px 0px 0px yellow);
+    border-radius: 100%;
+}

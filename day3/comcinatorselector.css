@@ -1,0 +1,31 @@
+/* descendent selector*/
+div h1{
+    background-color: aqua;
+}
+/* child selector*/
+div>h1{
+    background-color: red;
+}
+/* adjacent sibling selector */
+div>h1+h1{
+    background-color: chartreuse;
+}
+/* general sibling selector*/
+div>h1~h1{
+    background-color: blue;
+}
+ol>li+li{
+    background-color: blueviolet;
+}
+ol>li+li+li+li+li{
+    background-color: brown;
+}
+ol>li+li+li+li{
+    background-color: cornflowerblue;
+}
+ol>li+li+li{
+    background-color: darkcyan;
+}
+ol>li{
+    background-color: hotpink;
+}

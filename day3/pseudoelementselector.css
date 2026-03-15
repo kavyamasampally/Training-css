@@ -1,0 +1,34 @@
+section::first-letter{
+    background-color: blueviolet;
+}
+section::first-line{
+    background-color: aqua;
+}
+p::before{
+    content:"Hello world";
+    content:"😊";
+    content: url("./peach-blossoms-8611337_1280.jpg");
+    content:"😊😍💕";  
+}
+p::after{
+    content:"❤";
+    content:"Tata bye bye";
+}
+ol>li::marker{
+    content:"💖";
+    content:"💕"
+}
+ol>li+li::marker{
+    content:"😊"
+}
+OL>li+li+li::marker{
+    content:"😎"
+}
+div::selection{
+    background-color:chartreuse;
+    color:white;
+}
+input::placeholder{
+     color:blue;
+    background-color:pink;
+}

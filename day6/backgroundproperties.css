@@ -1,0 +1,46 @@
+section{
+    background-color: yellow;
+    background-image:url('https://cdn.pixabay.com/photo/2025/05/09/15/06/fluffy-bird-string-9589605_1280.jpg');
+    background-size: cover;
+    background-size: contain;
+    background-size: 250px 150px;
+    background-repeat: repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+    background-position:top center;
+    background-position:top right;
+    background-position: top left;
+    background-position: bottom center;
+    background-position: bottom left;
+    background-position: bottom right;
+    background-position: center;
+    background-position: center right;
+    background-position: center left;
+    background-attachment: scroll;
+    background-attachment: fixed;
+    background:blue url('https://cdn.pixabay.com/photo/2016/09/14/11/19/electric-guitar-1669233_1280.png'); no-repeat topleft  30%;
+    background-blend-mode: color;
+    background-blend-mode: color-burn;
+    background-blend-mode: color-dodge;
+    background-blend-mode: darken;
+    background-blend-mode: difference;
+    background-blend-mode: exclusion;
+    background-blend-mode: hard-light;
+    background-blend-mode: hue;
+    background-blend-mode: lighten;
+    background-blend-mode: luminosity;
+    background-blend-mode: overlay;
+    background-blend-mode: screen;
+    background-blend-mode: soft-light;
+div{
+    border: 4px dotted;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    background-clip: border-box;
+    background-clip: content-box;
+    background-clip: padding-box;
+}
+
+}
